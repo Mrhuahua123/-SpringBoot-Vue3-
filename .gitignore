@@ -78,3 +78,15 @@ docs/_templates/
 # 配置文件（不包含示例）
 config/private/
 secrets/
+
+# 个人文档文件（避免提交学术作品）
+*.docx
+*.doc
+*.pdf
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+
+# 特定毕业论文文件
+基于SpringBoot的校园阅读社区系统_毕业论文初稿.docx
