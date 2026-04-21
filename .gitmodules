@@ -1,0 +1,6 @@
+[submodule "campus-reading-backend"]
+	path = campus-reading-backend
+	url = ./campus-reading-backend
+[submodule "campus-reading-frontend"]
+	path = campus-reading-frontend
+	url = ./campus-reading-frontend
