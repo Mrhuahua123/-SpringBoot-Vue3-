@@ -1,0 +1,80 @@
+# 通用忽略文件
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+
+# IDE文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 构建文件
+dist/
+build/
+target/
+node_modules/
+*.jar
+*.war
+
+# 环境文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 上传文件
+uploads/
+*.upload
+
+# 数据库文件
+*.db
+*.sqlite
+
+# 日志文件
+logs/
+*.log
+
+# 操作系统文件
+*.DS_Store
+Thumbs.db
+
+# 前端特定
+campus-reading-frontend/node_modules/
+campus-reading-frontend/dist/
+campus-reading-frontend/.env.local
+
+# 后端特定
+campus-reading-backend/target/
+campus-reading-backend/.idea/
+campus-reading-backend/*.iml
+campus-reading-backend/logs/
+
+# 测试文件
+*.test.js
+*.spec.js
+__tests__/
+__mocks__/
+
+# 文档生成
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar
+
+# 配置文件（不包含示例）
+config/private/
+secrets/
