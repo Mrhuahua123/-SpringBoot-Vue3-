@@ -199,14 +199,33 @@ WHERE username IN ('admin', 'testuser');
 
 本项目采用MIT许可证。详见 [LICENSE](LICENSE) 文件。
 
+## 🌐 GitHub仓库
+
+项目已上传至GitHub：
+- **仓库地址**：https://github.com/Mrhuahua123/-SpringBoot-Vue3-
+- **提交记录**：https://github.com/Mrhuahua123/-SpringBoot-Vue3-/commits?author=Mrhuahua123
+- **项目结构**：包含完整的Spring Boot后端和Vue 3前端
+
+### 克隆项目
+```bash
+git clone https://github.com/Mrhuahua123/-SpringBoot-Vue3-.git
+cd -SpringBoot-Vue3-
+
+# 初始化子模块
+git submodule init
+git submodule update
+```
+
 ## 📞 联系方式
 
 - **项目维护者**：kezi
-- **问题反馈**：[提交Issue](https://github.com/yourusername/campus-reading/issues)
+- **GitHub**：Mrhuahua123
+- **问题反馈**：[提交Issue](https://github.com/Mrhuahua123/-SpringBoot-Vue3-/issues)
 - **文档更新**：定期维护
 
 ---
 
 **最后更新**：2026-04-21  
 **版本**：v1.0.0  
-**状态**：生产就绪 🚀
+**GitHub状态**：已上传 ✅  
+**项目状态**：生产就绪 🚀
