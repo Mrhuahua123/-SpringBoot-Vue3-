@@ -48,6 +48,25 @@ WHERE username IN ('admin', 'testuser');
 **症状**：API返回中文乱码（如"??��??��????-???��"）
 **解决方案**：检查后端字符编码配置
 
+### 3. ReviewServiceImpl.java 编译错误 ✅ **已修复**
+**症状**：无法解析 'Review' 中的方法 'setScore'
+**根本原因**：字段名不一致
+  - `Review` 实体类使用 `rating` 字段
+  - `ReviewDTO` 使用 `score` 字段
+  - 数据库表 `t_review` 使用 `score` 列
+
+**修复方案**：
+1. 修改 `Review.java`，将 `rating` 字段改为 `score`
+2. 保持与数据库和 DTO 的一致性
+
+**修复文件**：
+- `campus-reading-backend/src/main/java/com/example/campusreading/entity/Review.java`
+
+**验证**：
+- ✅ 实体类字段名与数据库列名一致
+- ✅ `review.setScore(dto.getScore())` 可以正常解析
+- ✅ 没有其他代码依赖 `rating` 字段
+
 ## 🚀 立即测试步骤
 
 ### 步骤1：测试注册功能
